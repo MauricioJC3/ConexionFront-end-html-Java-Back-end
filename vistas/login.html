@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Estilos/style_login.css">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+
+<div class="login-container">
+    <h2>Iniciar Sesión</h2>
+    <form action="http://localhost:8080/iniciar-sesion" method="post" id="inicioSesionForm">
+        <!-- Asegúrate de tener un identificador único para cada input -->
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+</div>
+
+<!-- Incluye tu script main.js después del formulario -->
+<script src="../main.js"></script>
+
+</body>
+</html>
